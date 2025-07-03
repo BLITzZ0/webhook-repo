@@ -62,20 +62,12 @@ pip install -r requirements.txt
 
 ### 4. Connect to MongoDB
 
-This app uses MongoDB Atlas (cloud) by default.
-
-In `app.py`, make sure this line has your correct connection string:
-
-```python
-client = MongoClient("your_mongodb_connection_string")
-```
-
 If you’re using MongoDB Compass locally, adjust it to:
 
 ```python
 client = MongoClient("mongodb://localhost:27017/")
 ```
-
+keep the uri in the .env file in the given format
 Make sure the database name is `github_events` and collection is `events` .
 
 ### 5. Run the Flask app
