@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GitHub Webhook Events</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f6f9fc;
+      padding: 20px;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .event {
+      background: #ffffff;
+      border: 1px solid #ddd;
+      padding: 16px;
+      margin-bottom: 12px;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .event span {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h1>GitHub Webhook Events</h1>
+  <div id="events">Loading events...</div>
+
+  <!-- Link to external JS file -->
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
