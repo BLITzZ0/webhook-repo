@@ -183,4 +183,4 @@ It will insert a test event into MongoDB.
 
 ## Author
 
-This project is built for the GitHub Webhook Developer Assessment (TechStaX / similar).
+Abhishek Kumar Pandey
